@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../afaga.zip">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_1.png">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Coin images">
+   </Group>
+   <FileRef
+      location = "group:../Game images/Coin_2.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_3.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_4.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_5.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_6.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_7.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_8.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_9.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Game images/Coin_10.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
