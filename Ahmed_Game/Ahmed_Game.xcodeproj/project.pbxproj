@@ -17,6 +17,11 @@
 		0546271421E12EF700908AAF /* Coin_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0546270A21E12EF700908AAF /* Coin_4.png */; };
 		0546271521E12EF700908AAF /* Coin_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0546270B21E12EF700908AAF /* Coin_2.png */; };
 		0546271621E12EF700908AAF /* Coin_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0546270C21E12EF700908AAF /* Coin_1.png */; };
+		05E3310921E146D300529203 /* Cloud_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310521E146D300529203 /* Cloud_3.png */; };
+		05E3310A21E146D300529203 /* Cloud_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310621E146D300529203 /* Cloud_1.png */; };
+		05E3310B21E146D300529203 /* Cloud_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310721E146D300529203 /* Cloud_2.png */; };
+		05E3310C21E146D300529203 /* Cloud_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310821E146D300529203 /* Cloud_4.png */; };
+		05E3310F21E147A300529203 /* Background no clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310E21E147A300529203 /* Background no clouds.png */; };
 		4312503521905F8100FE930C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312503421905F8100FE930C /* AppDelegate.swift */; };
 		4312503721905F8100FE930C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312503621905F8100FE930C /* ViewController.swift */; };
 		4312503A21905F8100FE930C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4312503821905F8100FE930C /* Main.storyboard */; };
@@ -31,7 +36,6 @@
 		4336636721C944AB00CF6EB6 /* Piget4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4336636121C944AB00CF6EB6 /* Piget4.png */; };
 		4336636821C944AB00CF6EB6 /* Piget5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4336636221C944AB00CF6EB6 /* Piget5.png */; };
 		4336636921C944AB00CF6EB6 /* Piget6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4336636321C944AB00CF6EB6 /* Piget6.png */; };
-		43F34F4321C3DD4400C74C87 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F34F4221C3DD4400C74C87 /* Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,11 @@
 		0546270A21E12EF700908AAF /* Coin_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin_4.png; path = Ahmed_Game/Coin_4.png; sourceTree = SOURCE_ROOT; };
 		0546270B21E12EF700908AAF /* Coin_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin_2.png; path = Ahmed_Game/Coin_2.png; sourceTree = SOURCE_ROOT; };
 		0546270C21E12EF700908AAF /* Coin_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin_1.png; path = Ahmed_Game/Coin_1.png; sourceTree = SOURCE_ROOT; };
+		05E3310521E146D300529203 /* Cloud_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_3.png; sourceTree = "<group>"; };
+		05E3310621E146D300529203 /* Cloud_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_1.png; sourceTree = "<group>"; };
+		05E3310721E146D300529203 /* Cloud_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_2.png; sourceTree = "<group>"; };
+		05E3310821E146D300529203 /* Cloud_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_4.png; sourceTree = "<group>"; };
+		05E3310E21E147A300529203 /* Background no clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background no clouds.png"; sourceTree = "<group>"; };
 		4312503121905F8100FE930C /* Ahmed_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ahmed_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4312503421905F8100FE930C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4312503621905F8100FE930C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +92,6 @@
 		4336636121C944AB00CF6EB6 /* Piget4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Piget4.png; path = Ahmed_Game/Pidgeot/Piget4.png; sourceTree = SOURCE_ROOT; };
 		4336636221C944AB00CF6EB6 /* Piget5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Piget5.png; path = Ahmed_Game/Pidgeot/Piget5.png; sourceTree = SOURCE_ROOT; };
 		4336636321C944AB00CF6EB6 /* Piget6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Piget6.png; path = Ahmed_Game/Pidgeot/Piget6.png; sourceTree = SOURCE_ROOT; };
-		43F34F4221C3DD4400C74C87 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = "Game images/Background.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,17 @@
 			path = Pidgeot;
 			sourceTree = "<group>";
 		};
+		05E3310D21E146EC00529203 /* Clouds */ = {
+			isa = PBXGroup;
+			children = (
+				05E3310621E146D300529203 /* Cloud_1.png */,
+				05E3310721E146D300529203 /* Cloud_2.png */,
+				05E3310521E146D300529203 /* Cloud_3.png */,
+				05E3310821E146D300529203 /* Cloud_4.png */,
+			);
+			name = Clouds;
+			sourceTree = "<group>";
+		};
 		4312502821905F8100FE930C = {
 			isa = PBXGroup;
 			children = (
@@ -174,10 +193,11 @@
 				4312503621905F8100FE930C /* ViewController.swift */,
 				4312503821905F8100FE930C /* Main.storyboard */,
 				0546270121E12EF600908AAF /* Ahmed_Game.xcodeproj */,
+				05E3310D21E146EC00529203 /* Clouds */,
 				0546271821E1326C00908AAF /* Coin images */,
 				0546271921E132A400908AAF /* Pidgeot */,
-				43F34F4221C3DD4400C74C87 /* Background.png */,
 				4312503B21905F8100FE930C /* Assets.xcassets */,
+				05E3310E21E147A300529203 /* Background no clouds.png */,
 				4312503D21905F8100FE930C /* LaunchScreen.storyboard */,
 				4312504021905F8100FE930C /* Info.plist */,
 			);
@@ -324,17 +344,21 @@
 				0546271521E12EF700908AAF /* Coin_2.png in Resources */,
 				0546271621E12EF700908AAF /* Coin_1.png in Resources */,
 				4336636621C944AB00CF6EB6 /* Piget3.png in Resources */,
+				05E3310C21E146D300529203 /* Cloud_4.png in Resources */,
 				0546270D21E12EF700908AAF /* Coin_5.png in Resources */,
+				05E3310B21E146D300529203 /* Cloud_2.png in Resources */,
 				0546271221E12EF700908AAF /* Coin_3.png in Resources */,
 				4336636721C944AB00CF6EB6 /* Piget4.png in Resources */,
-				43F34F4321C3DD4400C74C87 /* Background.png in Resources */,
 				4336636521C944AB00CF6EB6 /* Piget2.png in Resources */,
 				4336636821C944AB00CF6EB6 /* Piget5.png in Resources */,
 				0546271321E12EF700908AAF /* Coin_8.png in Resources */,
 				4312503A21905F8100FE930C /* Main.storyboard in Resources */,
+				05E3310F21E147A300529203 /* Background no clouds.png in Resources */,
 				4336636421C944AB00CF6EB6 /* Piget.png in Resources */,
 				4336636921C944AB00CF6EB6 /* Piget6.png in Resources */,
 				0546270F21E12EF700908AAF /* Coin_9.png in Resources */,
+				05E3310A21E146D300529203 /* Cloud_1.png in Resources */,
+				05E3310921E146D300529203 /* Cloud_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

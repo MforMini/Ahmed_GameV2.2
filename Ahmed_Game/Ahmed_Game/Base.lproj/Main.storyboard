@@ -21,31 +21,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d1-Mp-jWC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background no clouds.png" translatesAutoresizingMaskIntoConstraints="NO" id="41n-Cb-FmZ">
                                 <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXK-7d-Uqq" customClass="Movement" customModule="Ahmed_Game" customModuleProvider="target">
-                                <rect key="frame" x="14" y="121" width="133" height="79"/>
+                                <rect key="frame" x="8" y="185" width="133" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xIF-Pi-EEj">
-                                <rect key="frame" x="408" y="151" width="58" height="31"/>
+                                <rect key="frame" x="637" y="209" width="58" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="FpB-Gw-wkI">
+                                <rect key="frame" x="-1" y="2" width="142" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ViW-xE-cfr">
+                                <rect key="frame" x="-1" y="73" width="144" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="FA0-zd-4QJ">
+                                <rect key="frame" x="2" y="50" width="144" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_4.png" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-z2-S4H">
+                                <rect key="frame" x="2" y="79" width="146" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="Cloud1" destination="FpB-Gw-wkI" id="wwm-gx-hNc"/>
+                        <outlet property="Cloud2" destination="ViW-xE-cfr" id="Xxz-4z-s2I"/>
+                        <outlet property="Cloud3" destination="FA0-zd-4QJ" id="SYH-W3-pBb"/>
+                        <outlet property="Cloud4" destination="DiH-z2-S4H" id="ORe-iH-ECT"/>
                         <outlet property="Coin" destination="xIF-Pi-EEj" id="7Kw-EQ-9SC"/>
                         <outlet property="Pidgeot" destination="QXK-7d-Uqq" id="Xe2-Oe-DJf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25.271739130434785" y="26.086956521739133"/>
+            <point key="canvasLocation" x="-23" y="-230"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Background.png" width="1920" height="1200"/>
+        <image name="Background no clouds.png" width="1920" height="1200"/>
+        <image name="Cloud_1.png" width="276" height="147"/>
+        <image name="Cloud_2.png" width="204" height="116"/>
+        <image name="Cloud_3.png" width="217" height="105"/>
+        <image name="Cloud_4.png" width="248" height="120"/>
     </resources>
 </document>
