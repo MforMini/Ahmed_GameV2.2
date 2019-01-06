@@ -26,27 +26,31 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXK-7d-Uqq" customClass="Movement" customModule="Ahmed_Game" customModuleProvider="target">
-                                <rect key="frame" x="8" y="185" width="133" height="79"/>
+                                <rect key="frame" x="8" y="185" width="115" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xIF-Pi-EEj">
-                                <rect key="frame" x="637" y="209" width="58" height="31"/>
+                                <rect key="frame" x="260" y="214" width="48" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="FpB-Gw-wkI">
-                                <rect key="frame" x="-1" y="2" width="142" height="76"/>
+                                <rect key="frame" x="-1" y="2" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ViW-xE-cfr">
-                                <rect key="frame" x="-1" y="73" width="144" height="76"/>
+                                <rect key="frame" x="-1" y="73" width="120" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="FA0-zd-4QJ">
-                                <rect key="frame" x="2" y="50" width="144" height="76"/>
+                                <rect key="frame" x="2" y="50" width="108" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloud_4.png" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-z2-S4H">
-                                <rect key="frame" x="2" y="79" width="146" height="77"/>
+                                <rect key="frame" x="2" y="79" width="113" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhk-QP-95c">
+                                <rect key="frame" x="444" y="200" width="72" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -58,11 +62,12 @@
                         <outlet property="Cloud4" destination="DiH-z2-S4H" id="ORe-iH-ECT"/>
                         <outlet property="Coin" destination="xIF-Pi-EEj" id="7Kw-EQ-9SC"/>
                         <outlet property="Pidgeot" destination="QXK-7d-Uqq" id="Xe2-Oe-DJf"/>
+                        <outlet property="Pokeball" destination="nhk-QP-95c" id="ZWC-DF-gaY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="-230"/>
+            <point key="canvasLocation" x="-23.64130434782609" y="-230.43478260869566"/>
         </scene>
     </scenes>
     <resources>

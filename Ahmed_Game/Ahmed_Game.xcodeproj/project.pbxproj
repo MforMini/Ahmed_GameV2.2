@@ -154,6 +154,13 @@
 			path = Pidgeot;
 			sourceTree = "<group>";
 		};
+		05C7466121E24E8B009CAD70 /* Pokeballs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pokeballs;
+			sourceTree = "<group>";
+		};
 		05E3310D21E146EC00529203 /* Clouds */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +200,7 @@
 				4312503621905F8100FE930C /* ViewController.swift */,
 				4312503821905F8100FE930C /* Main.storyboard */,
 				0546270121E12EF600908AAF /* Ahmed_Game.xcodeproj */,
+				05C7466121E24E8B009CAD70 /* Pokeballs */,
 				05E3310D21E146EC00529203 /* Clouds */,
 				0546271821E1326C00908AAF /* Coin images */,
 				0546271921E132A400908AAF /* Pidgeot */,

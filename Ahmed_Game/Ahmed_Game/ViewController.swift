@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Coin: UIImageView!
     
+    @IBOutlet weak var Pokeball: UIImageView!
+    
     @IBOutlet weak var Cloud1: UIImageView!
     
     @IBOutlet weak var Cloud2: UIImageView!
@@ -60,6 +62,9 @@ class ViewController: UIViewController {
              
              Coin.image = UIImage.animatedImage(with: coinArray, duration: 0.5)
         
+        //Pokeball - Enemy
+        
+        
         //Animation of clouds
         UIView.animate(withDuration: 1.0, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
@@ -68,14 +73,14 @@ class ViewController: UIViewController {
                 
         }, completion: nil
         )
-        UIView.animate(withDuration: 1.5, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
+        UIView.animate(withDuration: 1.2, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
                 self.Cloud2.center.x += self.view.bounds.width
                 
         }, completion: nil
         )
         
-        UIView.animate(withDuration: 3.0, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
+        UIView.animate(withDuration: 1.5, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
                 self.Cloud3.center.x += self.view.bounds.width
                 
