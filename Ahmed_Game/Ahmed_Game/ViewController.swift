@@ -63,8 +63,20 @@ class ViewController: UIViewController {
              Coin.image = UIImage.animatedImage(with: coinArray, duration: 0.5)
         
         //Pokeball - Enemy
+        var PokeArray: [UIImage]!
         
-        
+        PokeArray =
+            [UIImage(named: "Pokeball_1.png")!,
+             UIImage(named:"Pokeball_2.png")!,
+             UIImage(named:"Pokeball_3.png")!,
+             UIImage(named:"Pokeball_4.png")!,
+             UIImage(named:"Pokeball_5.png")!,
+             UIImage(named:"Pokeball_6.png")!,
+             UIImage(named:"Pokeball_7.png")!,
+             UIImage(named:"Pokeball_8.png")!]
+             
+             Pokeball.image = UIImage.animatedImage(with: PokeArray, duration: 1.0)
+             
         //Animation of clouds
         UIView.animate(withDuration: 1.0, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {

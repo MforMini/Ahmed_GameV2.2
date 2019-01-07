@@ -17,6 +17,14 @@
 		0546271421E12EF700908AAF /* Coin_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0546270A21E12EF700908AAF /* Coin_4.png */; };
 		0546271521E12EF700908AAF /* Coin_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0546270B21E12EF700908AAF /* Coin_2.png */; };
 		0546271621E12EF700908AAF /* Coin_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0546270C21E12EF700908AAF /* Coin_1.png */; };
+		05C7466B21E2530D009CAD70 /* Pokeball_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466321E2530C009CAD70 /* Pokeball_1.png */; };
+		05C7466C21E2530D009CAD70 /* Pokeball_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466421E2530C009CAD70 /* Pokeball_8.png */; };
+		05C7466D21E2530D009CAD70 /* Pokeball_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466521E2530C009CAD70 /* Pokeball_4.png */; };
+		05C7466E21E2530D009CAD70 /* Pokeball_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466621E2530D009CAD70 /* Pokeball_5.png */; };
+		05C7466F21E2530D009CAD70 /* Pokeball_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466721E2530D009CAD70 /* Pokeball_6.png */; };
+		05C7467021E2530D009CAD70 /* Pokeball_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466821E2530D009CAD70 /* Pokeball_3.png */; };
+		05C7467121E2530D009CAD70 /* Pokeball_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466921E2530D009CAD70 /* Pokeball_7.png */; };
+		05C7467221E2530D009CAD70 /* Pokeball_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C7466A21E2530D009CAD70 /* Pokeball_2.png */; };
 		05E3310921E146D300529203 /* Cloud_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310521E146D300529203 /* Cloud_3.png */; };
 		05E3310A21E146D300529203 /* Cloud_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310621E146D300529203 /* Cloud_1.png */; };
 		05E3310B21E146D300529203 /* Cloud_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3310721E146D300529203 /* Cloud_2.png */; };
@@ -67,6 +75,14 @@
 		0546270A21E12EF700908AAF /* Coin_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin_4.png; path = Ahmed_Game/Coin_4.png; sourceTree = SOURCE_ROOT; };
 		0546270B21E12EF700908AAF /* Coin_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin_2.png; path = Ahmed_Game/Coin_2.png; sourceTree = SOURCE_ROOT; };
 		0546270C21E12EF700908AAF /* Coin_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin_1.png; path = Ahmed_Game/Coin_1.png; sourceTree = SOURCE_ROOT; };
+		05C7466321E2530C009CAD70 /* Pokeball_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_1.png; sourceTree = "<group>"; };
+		05C7466421E2530C009CAD70 /* Pokeball_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_8.png; sourceTree = "<group>"; };
+		05C7466521E2530C009CAD70 /* Pokeball_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_4.png; sourceTree = "<group>"; };
+		05C7466621E2530D009CAD70 /* Pokeball_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_5.png; sourceTree = "<group>"; };
+		05C7466721E2530D009CAD70 /* Pokeball_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_6.png; sourceTree = "<group>"; };
+		05C7466821E2530D009CAD70 /* Pokeball_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_3.png; sourceTree = "<group>"; };
+		05C7466921E2530D009CAD70 /* Pokeball_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_7.png; sourceTree = "<group>"; };
+		05C7466A21E2530D009CAD70 /* Pokeball_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball_2.png; sourceTree = "<group>"; };
 		05E3310521E146D300529203 /* Cloud_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_3.png; sourceTree = "<group>"; };
 		05E3310621E146D300529203 /* Cloud_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_1.png; sourceTree = "<group>"; };
 		05E3310721E146D300529203 /* Cloud_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_2.png; sourceTree = "<group>"; };
@@ -154,9 +170,17 @@
 			path = Pidgeot;
 			sourceTree = "<group>";
 		};
-		05C7466121E24E8B009CAD70 /* Pokeballs */ = {
+		05C7467321E25327009CAD70 /* Pokeballs */ = {
 			isa = PBXGroup;
 			children = (
+				05C7466321E2530C009CAD70 /* Pokeball_1.png */,
+				05C7466A21E2530D009CAD70 /* Pokeball_2.png */,
+				05C7466821E2530D009CAD70 /* Pokeball_3.png */,
+				05C7466521E2530C009CAD70 /* Pokeball_4.png */,
+				05C7466621E2530D009CAD70 /* Pokeball_5.png */,
+				05C7466721E2530D009CAD70 /* Pokeball_6.png */,
+				05C7466921E2530D009CAD70 /* Pokeball_7.png */,
+				05C7466421E2530C009CAD70 /* Pokeball_8.png */,
 			);
 			path = Pokeballs;
 			sourceTree = "<group>";
@@ -200,7 +224,7 @@
 				4312503621905F8100FE930C /* ViewController.swift */,
 				4312503821905F8100FE930C /* Main.storyboard */,
 				0546270121E12EF600908AAF /* Ahmed_Game.xcodeproj */,
-				05C7466121E24E8B009CAD70 /* Pokeballs */,
+				05C7467321E25327009CAD70 /* Pokeballs */,
 				05E3310D21E146EC00529203 /* Clouds */,
 				0546271821E1326C00908AAF /* Coin images */,
 				0546271921E132A400908AAF /* Pidgeot */,
@@ -362,10 +386,18 @@
 				0546271321E12EF700908AAF /* Coin_8.png in Resources */,
 				4312503A21905F8100FE930C /* Main.storyboard in Resources */,
 				05E3310F21E147A300529203 /* Background no clouds.png in Resources */,
+				05C7466E21E2530D009CAD70 /* Pokeball_5.png in Resources */,
 				4336636421C944AB00CF6EB6 /* Piget.png in Resources */,
+				05C7467021E2530D009CAD70 /* Pokeball_3.png in Resources */,
+				05C7466D21E2530D009CAD70 /* Pokeball_4.png in Resources */,
+				05C7466F21E2530D009CAD70 /* Pokeball_6.png in Resources */,
 				4336636921C944AB00CF6EB6 /* Piget6.png in Resources */,
+				05C7466B21E2530D009CAD70 /* Pokeball_1.png in Resources */,
+				05C7466C21E2530D009CAD70 /* Pokeball_8.png in Resources */,
 				0546270F21E12EF700908AAF /* Coin_9.png in Resources */,
+				05C7467221E2530D009CAD70 /* Pokeball_2.png in Resources */,
 				05E3310A21E146D300529203 /* Cloud_1.png in Resources */,
+				05C7467121E2530D009CAD70 /* Pokeball_7.png in Resources */,
 				05E3310921E146D300529203 /* Cloud_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

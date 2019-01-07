@@ -2,52 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../Ahmed_Game/Pokeball_1.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_1.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_2.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_2.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_3.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_4.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_4.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_5.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_3.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_5.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_6.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_6.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_7.png">
-   </FileRef>
-   <FileRef
-      location = "group:../Ahmed_Game/Pokeball_8.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_7.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../mcpokeballv2/Pokeball_8.png">
+      location = "group:../../../Background no clouds.png">
    </FileRef>
    <FileRef
       location = "self:">
