@@ -10,25 +10,40 @@
 
 import UIKit
 
-
+protocol  subviewDelegate{
+    func changeSomething()
+}
 
 class ViewController: UIViewController {
     
+    //let when = DispatchTime.now() + 20
+    //DispatchQueue.main.asyncAfter(deadline: when)
+    //{// Your code for actions when the time is up}
     
+    //Screen fit
+    let W = UIScreen.main.bounds.width
+    let H = UIScreen.main.bounds.height
     
-    @IBOutlet weak var Pidgeot: UIImageView!
+    //Behaviours and Animators
+    var dynamicAnimator: UIDynamicAnimator!
+    var dynamicItemBehaviour:UIDynamicItemBehavior!
+    var gravityBehaviour: UIGravityBehavior!
+    var collisionBehaviour: UICollisionBehavior!
     
-    @IBOutlet weak var Coin: UIImageView!
+    //Image links
+    @IBOutlet weak var pidgeot: UIImageView!
     
-    @IBOutlet weak var Pokeball: UIImageView!
+    @IBOutlet weak var coin: UIImageView!
     
-    @IBOutlet weak var Cloud1: UIImageView!
+    @IBOutlet weak var pokeball: UIImageView!
     
-    @IBOutlet weak var Cloud2: UIImageView!
+    @IBOutlet weak var cloud1: UIImageView!
     
-    @IBOutlet weak var Cloud3: UIImageView!
+    @IBOutlet weak var cloud2: UIImageView!
     
-    @IBOutlet weak var Cloud4: UIImageView!
+    @IBOutlet weak var cloud3: UIImageView!
+    
+    @IBOutlet weak var cloud4: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +58,7 @@ class ViewController: UIViewController {
         UIImage(named:"Piget3.png")!,
         UIImage(named:"Piget4.png")!]
     
-        Pidgeot.image = UIImage.animatedImage(with: imageArray, duration: 0.5)
+        pidgeot.image = UIImage.animatedImage(with: imageArray, duration: 0.5)
         
         //Coin - Collectible
         var coinArray: [UIImage]!
@@ -60,12 +75,13 @@ class ViewController: UIViewController {
              UIImage(named:"Coin_9.png")!,
              UIImage(named:"Coin_10.png")!]
              
-             Coin.image = UIImage.animatedImage(with: coinArray, duration: 0.5)
+             coin.image = UIImage.animatedImage(with: coinArray, duration: 0.5)
         
         //Pokeball - Enemy
-        var PokeArray: [UIImage]!
+        let pokeballImage = UIImageView(image: nil)
+        var pokeArray: [UIImage]!
         
-        PokeArray =
+        pokeArray =
             [UIImage(named: "Pokeball_1.png")!,
              UIImage(named:"Pokeball_2.png")!,
              UIImage(named:"Pokeball_3.png")!,
@@ -74,35 +90,43 @@ class ViewController: UIViewController {
              UIImage(named:"Pokeball_6.png")!,
              UIImage(named:"Pokeball_7.png")!,
              UIImage(named:"Pokeball_8.png")!]
-             
-             Pokeball.image = UIImage.animatedImage(with: PokeArray, duration: 1.0)
+        
+        pokeball.image = UIImage.animatedImage(with: pokeArray, duration: 1.0)
+
+        pokeballImage.frame = CGRect (x: 800, y: CGFloat(arc4random_uniform(UInt32(300))), width: 80, height: 35)
+        
+        self.dynamicAnimator = UIDynamicAnimator(referenceView: self.view)
+        self.dynamicItemBehaviour = UIDynamicItemBehavior(items: [pokeballImage])
+        self.dynamicItemBehaviour.addLinearVelocity(CGPoint(x: -400, y: 0), for: pokeballImage)
+        //self.dynamicAnimator.addBehavior(self.dynamicItemBehaviour)
+        
              
         //Animation of clouds
+        //Cloud 1
         UIView.animate(withDuration: 1.0, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
-                self.Cloud1.center.x += self.view.bounds.width
-               
-                
+                self.cloud1.center.x -= self.view.bounds.width
         }, completion: nil
         )
+        
+        //Cloud 2
         UIView.animate(withDuration: 1.2, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
-                self.Cloud2.center.x += self.view.bounds.width
-                
+                self.cloud2.center.x -= self.view.bounds.width
         }, completion: nil
         )
         
+        //Cloud 3
         UIView.animate(withDuration: 1.5, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
-                self.Cloud3.center.x += self.view.bounds.width
-                
+                self.cloud3.center.x -= self.view.bounds.width
         }, completion: nil
         )
         
+        //Cloud 4
         UIView.animate(withDuration: 2.0, delay: 0.0, options: [UIViewAnimationOptions.repeat, .curveLinear], animations:
             {
-                self.Cloud4.center.x += self.view.bounds.width
-                
+                self.cloud4.center.x -= self.view.bounds.width
         }, completion: nil
         )
         
